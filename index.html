@@ -10,7 +10,9 @@
 <body>
   <div class="container">
     <div class="row">
-      <h1>Expense Organizer!</h1>
+      <div class="col-md-12">
+        <h1 class="headline text-center">Where's my <span id="green">$$$</span>?</h1>
+      </div>
       <div class="col-md-6">
         <h2>Categories:</h2>
         <div id="category-list">
@@ -20,7 +22,7 @@
           <div class="form-group">
             <input type="text" id="category" class="form-control" placeholder="New Category"></input>
           </div>
-          <button type="submit">Add</button>
+          <button class="btn btn-primary" type="submit">Add</button>
         </form>
       </div>
 
@@ -33,15 +35,13 @@
           <div class="form-group">
             <input type="number" id="amount" class="form-control" placeholder="Dollar Amount"></input>
           </div>
-           <div class="form-group">
+          <div class="form-group">
             <input type="number" id="quantity" class="form-control" placeholder="Quantity"></input>
           </div>
-          <button type="submit">Track!</button>
+          <button class="btn btn-primary" type="submit">Track!</button>
         </form>
       </div>
     </div>
-
-
 
     <div class="row">
       <div class = "col-md-12" id="purchase-list">
@@ -58,6 +58,9 @@
           </tbody>
         </table>
       </div>
+    </div>
+    <div class="text-center footer">
+      <h6>Created by Christian Danielsen. Copyright MIT</h6 >
     </div>
   </div>
 </body>

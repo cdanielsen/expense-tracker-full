@@ -1,10 +1,54 @@
-.row {
-  margin-top: 5%;
-  margin-bottom: 5%;
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body {
+  background-color: #34495e;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  width: 100px;
+}
+
+table {
+  margin-top: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+.container {
+  position: relative;
+  background-color: #ecf0f1;
+  min-height: 800px;
+  max-width: 800px;
+}
+
+.clickable:hover {
+  font-weight: bold;
+}
+
+.headline {
+  font-family: Oswald;
+  font-size: 100px;
 }
 
 #category-list {
-  color: blue;
-  text-decoration: underline;
+  color: #27ae60;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 50%;
   cursor: pointer;
+}
+
+#green {
+  color: #27ae60;
 }
